@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: #1a2a3a;
+            color: white;
+        }
+        .text_a{
+            text-decoration:none;
+            margin: 10px;
+            margin-bottom: 10px ;
+            padding-right: 20px;
+            color: white;
+       }
+       .text_a:hover{
+          color: aqua;
+       }
+       .mail{
+            font-size:small;
+            color: aqua;
+       }
+       .icon_box {
+        display: flex;
+        gap: 20px;
+       }
+       .icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        padding-top: 7px;
+       }
+       .icon:hover{
+            filter: drop-shadow(0px 0px 5px #010408);
+            transform:scale(1.5);
+       }
+       .logo{
+            text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <footer class="ms-4">
+        <div class="row g-0 mt-4 ">
+            <div class="col-7 mb-3 ">
+                <h5 class="head fw-bold">Student Zone</h5>
+                <hr>
+                <div >
+                    <span class="spans mb-4 "><a href="" class=" text_a border-end">Blog</a></span>
+                    <span class="spans "><a href="" class="text_a border-end">Internship</a></span>
+                    <span class="spans"><a href="" class="text_a border-end">On Job Support</a></span>
+                    <span class="spans "><a href="" class="text_a border-end">Video Review</a></span>
+                </div>
+            </div>
+
+            <div class="col-1 "></div>   <!-- empty gap-->
+
+            <div class="col-4 ">
+                <h5 class="head fw-bold ">Follow Us</h5>
+                <hr>
+                <div class="mt-4 icon_box">
+                    <div class="icon"><i class="fa-brands fa-square-whatsapp w-25"></i></div>
+                    <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="icon"><i class="fa-brands fa-square-x-twitter"></i></div>
+                    <div class="icon"><i class="fa-brands fa-square-instagram"></i></div>
+                    <!-- <span class="icon_box"><i class="fa-brands fa-square-whatsapp"></i></span>
+                    <span class="icon_box"><i class="fa-brands fa-facebook"></i></span>
+                    <span class="icon_box"><i class="fa-brands fa-square-x-twitter"></i></span>
+                    <span class="icon_box"><i class="fa-brands fa-square-instagram"></i></span> -->
+                </div>
+            </div>
+        </div>
+        <div class="row g-0  mt-4">
+            <h5 class="head fw-bold">Company</h5>
+            <hr>
+            <div class="mb-3">
+                <span class="spans"><a href="" class=" text_a border-end">Career</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Courses</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Gallery</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">About us</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Contact</a></span>
+            </div>
+        </div>
+        <div class="row g-0 mt-4">
+            <h5 class="head fw-bold">Top Courses</h5>
+            <hr>
+            <div class="spn">
+                <span class="spans"><a href="" class=" text_a border-end">Data Analyst</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Data Science</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Full Stack Developer</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Python</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Java</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">UI/UX</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">App Development</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Dot net Developer</a></span>
+                <span class="spans"><a href="" class=" text_a border-end">Flutter</a></span>
+                <div class="mt-4">
+                    <span class="spans"><a href="" class=" text_a border-end">Artificial intalligence & Mission Learning</a></span>
+                    <span class="spans"><a href="" class=" text_a border-end">Selenium Training</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-3 ">
+                <h5 class="head fw-bold">Course Enquiry</h5>
+                <hr>
+                <div class="border-end p-2">
+                    <p class="fw-bold">Corporate Training</p>
+                    <p><i class="fa-solid fa-phone"></i> <span class="mail ms-4">6700987766</span></p>
+                    <p><i class="fa-regular fa-envelope"></i> <span class="mail ms-4">i5technologies@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="col-3 logo ">
+                <h5 class=" fw-bold">Get In Touch</h5>
+                <hr>
+                <div class="border-end p-2">
+                <p>32/20, G V Complex, Railway Colony 3rd Street Next to Vincent School & Vincent Church Aminjikarai Chennai – 600 029</p>
+                <!-- <p class="mail">Email - i5technologies@gmail.com</p>
+                <p class="mail">Mobile No - 857467393</p> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
